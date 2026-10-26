@@ -243,7 +243,8 @@ body.dark {
 .jd-hpb h1,
 .jd-li h1,
 .jd-dpb h1,
-.jd-dpb-1 h1 {
+.jd-dpb-1 h1,
+.jd-cd-404 h1 {
   font-family: var(--font-judul);
   font-size: 35px;
   font-weight: 800;
@@ -299,6 +300,19 @@ body.dark {
 
 .jd-li {
   margin-bottom: 3rem;
+}
+
+.jd-cd-404 {
+  display: grid;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  max-width: 1350px;
+  min-height: 50vh;
+  width: 100%;
+  gap: 1rem;
+  transition: color 1.5s ease;
+  padding: 0 3rem;
 }
 /* JUDUL */
 
@@ -2831,7 +2845,8 @@ body.dark {
   .jd-hpb h1,
   .jd-li h1,
   .jd-dpb h1,
-  .jd-dpb-1 h1 {
+  .jd-dpb-1 h1,
+  .jd-cd-404 h1 {
     font-size: 30px;
   }
   /* END JUDUL */
@@ -3099,7 +3114,8 @@ body.dark {
   .jd-hpb h1,
   .jd-li h1,
   .jd-dpb h1,
-  .jd-dpb-1 h1 {
+  .jd-dpb-1 h1,
+  .jd-cd-404 h1 {
     font-size: 28px;
   }
 
@@ -3452,7 +3468,8 @@ body.dark {
   .jd-hpb h1,
   .jd-li h1,
   .jd-dpb h1,
-  .jd-dpb-1 h1 {
+  .jd-dpb-1 h1,
+  .jd-cd-404 h1 {
     font-size: 24px;
   }
   /* END JUDUL */
